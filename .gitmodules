@@ -1,3 +1,6 @@
 [submodule "eastarjet-web"]
 	path = eastarjet-web
 	url = git@github.com:goluter/eastarjet-web.git
+[submodule "eastarjet-mobile"]
+	path = eastarjet-mobile
+	url = git@github.com:goluter/eastarjet-mobile.git
