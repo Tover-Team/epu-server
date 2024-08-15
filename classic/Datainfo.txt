@@ -1,0 +1,3 @@
+DB_ID: estar
+DB_PASSWORD: estar1996
+DB_NAME: tover

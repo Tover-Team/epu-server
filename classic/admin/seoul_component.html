@@ -1,0 +1,213 @@
+<header class="header">
+    <img src="Content/images/logo.png" alt="Responsive Image">
+</header>
+<div class="container-fluid">
+    <div class="row view-supply">
+        <div class="col-3 text-center align-self-center view-supply-block">
+            <div class="row">
+                <div class="col-12 align-self-center text-center">
+                    <img src="Content/images/coin-stack.png" alt="Responsive Image">
+                    <p class="view-supply-sub align-self-center">100,000,000 <span class="view-supply-small">SEOUL</span></p>
+                </div>
+            </div>
+            <div class="row text-center align-self-center">
+                <p class="view-supply-text text-center">최대 토큰 공급량</p>
+            </div>
+        </div>
+        <div class="col-3 text-center align-self-center view-supply-block">
+            <div class="row">
+                <div class="col-12 align-self-center text-center">
+                    <img src="Content/images/coin-stack.png" alt="Responsive Image">
+                    <p class="view-supply-sub align-self-center">50,000,000 <span class="view-supply-small">SEOUL</span></p>
+                </div>
+            </div>
+            <div class="row text-center align-self-center">
+                <p class="view-supply-text text-center">현재 토큰 공급량</p>
+            </div>
+        </div>
+        <div class="col-3 text-center align-self-center view-supply-block">
+            <div class="row">
+                <div class="col-12 align-self-center text-center">
+                    <img src="Content/images/coin-stack.png" alt="Responsive Image">
+                    <p class="view-supply-sub align-self-center">50,000,000 <span class="view-supply-small">SEOUL</span></p>
+                </div>
+            </div>
+            <div class="row text-center align-self-center">
+                <p class="view-supply-text text-center">남은 토큰 공급량</p>
+            </div>
+        </div>
+        <div class="col-3 text-center align-self-center view-supply-block">
+            <div class="row">
+                <div class="col-12 align-self-center text-center">
+                    <img src="Content/images/coin-stack.png" alt="Responsive Image">
+                    <p class="view-supply-sub align-self-center">50 <span class="view-supply-small">%</span></p>
+                </div>
+            </div>
+            <div class="row text-center align-self-center">
+                <p class="view-supply-text text-center">최대 공급량 대비 현재 공급량</p>
+            </div>
+        </div>
+    </div>
+    <div class="row view-wallet">
+        <div class="col-12 view-wallet-block">
+            <div class="row">
+                <div class="col-12 view-wallet-main-wrap">
+                    <p class="view-wallet-main">SEOUL 토큰 발행</p>
+                    <p class="view-wallet-sub">SEOUL Account : EOS.SEOUL</p>
+                </div>
+                <div class="col-12 view-wallet-space">
+                    <p class="view-wallet-text">EOS8WawSSuGFGeeaCFYouJoRsFeBG2grExDhJ21nJd2Fhj74mdnY6</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row view-content row-eq-height">
+        <div class="col-8 view-content-block-wrap">
+            <div class="view-content-block">
+                <div class="row">
+                    <div class="col-12 view-content-main">
+                        SEOUL 코인/토큰 송금
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 view-content-name">
+                        SEOUL
+                    </div>
+                    <div class="col-12 view-content-sub-wrap">
+                        내 지갑주소
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 view-content-name">
+                        송금 정보
+                    </div>
+                    <div class="col-12 view-content-send-wrap">
+                        <input class="form-control" type="text" placeholder="송금할 주소를 입력하세요.">
+                    </div>
+                    <div class="col-6 view-content-amount-wrap">
+                        <input class="form-control" type="text" placeholder="송금할 액수를 입력하세요.">
+                    </div>
+                    <div class="col-2 align-self-center view-content-symbol-wrap">
+                        <p class="view-content-symbol text-center">
+                            SEOUL
+                        </p>
+                    </div>
+                    <div class="col-4 align-self-center view-content-button-wrap">
+                        <button class="btn view-content-button" type="submit">송금하기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 view-content-block-wrap">
+            <div class="align-self-center view-graph-wrap">
+                <div class="view-content-block">
+                    <div class="col-12 view-content-main">
+                        7월 발행량
+                    </div>
+                    <div class="chart-div align-self-center">
+                        <canvas id="supplychart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row view-content row-eq-height">
+        <div class="col-4 view-content-block-wrap">
+            <div class="align-self-center view-graph-wrap">
+                <div class="view-content-block">
+                    <div class="col-12 view-content-main">
+                        2018년 SEOUL 거래량, 유저 수
+                    </div>
+                    <div class="col-12 chart-div-half align-self-center">
+                        <canvas id="transferchart"></canvas>
+                    </div>
+                    <div class="col-12 chart-div-half align-self-center">
+                        <canvas id="usernumberchart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-8 view-content-block-wrap">
+            <div class="view-content-block">
+                <div class="col-12 view-content-main-user">
+                    SEOUL 가입 유저
+                </div>
+                <div class="col-12 user-item">
+                    <div class="row">
+                        <div class="col-1 align-self-center text-center">
+                            <img src="Content/images/user64.png" alt="Responsive Image">
+                        </div>
+                        <div class="col-11 align-self-center">
+                            <p class="user-sub">최창진</p>
+                            <p class="user-text">가입일자 : 2018년 08월 24일 10:00 AM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 user-item yellowline">
+                    <div class="row">
+                        <div class="col-1 align-self-center text-center">
+                            <img src="Content/images/user64.png" alt="Responsive Image">
+                        </div>
+                        <div class="col-11 align-self-center">
+                            <p class="user-sub">강주영</p>
+                            <p class="user-text">가입일자 : 2018년 08월 24일 10:00 AM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 user-item blueline">
+                    <div class="row">
+                        <div class="col-1 align-self-center text-center">
+                            <img src="Content/images/user64.png" alt="Responsive Image">
+                        </div>
+                        <div class="col-11 align-self-center">
+                            <p class="user-sub">김기태</p>
+                            <p class="user-text">가입일자 : 2018년 08월 24일 10:00 AM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 user-item greenline">
+                    <div class="row">
+                        <div class="col-1 align-self-center text-center">
+                            <img src="Content/images/user64.png" alt="Responsive Image">
+                        </div>
+                        <div class="col-11 align-self-center">
+                            <p class="user-sub">최창진</p>
+                            <p class="user-text">가입일자 : 2018년 08월 24일 10:00 AM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 user-item">
+                    <div class="row">
+                        <div class="col-1 align-self-center text-center">
+                            <img src="Content/images/user64.png" alt="Responsive Image">
+                        </div>
+                        <div class="col-11 align-self-center">
+                            <p class="user-sub">최창진</p>
+                            <p class="user-text">가입일자 : 2018년 08월 24일 10:00 AM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="row footer">
+        <div class="col-12">
+            <img src="Content/images/logo_sj.png" alt="Responsive Image">
+        </div>
+        <div class="col-12">
+            <pre>
+                <a href="#">회사소개</a>  |  <a href="#">이용약관</a>  |  <a href="#">개인정보취급방침</a>  |  <a href="#">이메일무단수집거부</a>
+            </pre>
+        </div>
+        <div class="col-12">
+            <pre>
+                삼정데이타서비스(주)대표자 : 오충용  |  사업자번호 : 213-86-32489  |  (08378) 서울시 구로구 디지털로 306, 4층 416호,417호,421호 (구로동, 대륭포스트타워 2차)
+            </pre>
+        </div>
+        <div class="col-12">
+            <pre class="copy">
+                Copyright 2018 © Samjung Data Service, Inc. All Rights Reserved.
+            </pre>
+        </div>
+    </footer>
+</div>
